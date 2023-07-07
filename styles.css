@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -44,7 +52,7 @@ a {
     gap: 15px;
 }
 
-.header-text, .title-text {
+.header-text, .title-text, .message-title {
     color: #f9faf8;
     font-weight: 900;
 }
@@ -57,7 +65,7 @@ a {
     font-size: 48px;
 }
 
-.title-subtext, .header-links a, .header-image {
+.title-subtext, .header-links a, .header-image, .message-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -127,4 +135,20 @@ a {
 .quote-author {
     text-align: right;
     font-weight: 900;
+}
+
+.sign-up-message-bg {
+    padding: 60px 0;
+}
+
+.sign-up-message {
+    background-color: #3882f6;
+    padding: 40px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-border {
+    border: 2px solid white;
 }
