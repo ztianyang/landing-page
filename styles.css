@@ -109,3 +109,22 @@ a {
 .info-text {
     text-align: center;
 }
+
+.quote-bg {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    padding: 80px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 900;
+}
