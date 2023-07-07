@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .informations, .quote, .sign-up-message, .footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.header-bg, .footer-bg {
+    background-color: #1f2937;
+}
+
+.header-bar, .header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bar {
+    padding: 20px 0 60px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.header-text, .title-text {
+    color: #f9faf8;
+}
+
+.header-text {
+    font-size: 24px;
+}
+
+.title-text {
+    font-size: 48px;
+}
+
+.title-subtext, .header-links a, .header-image {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-content {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.title, .header-image {
+    flex: 1;
+}
+
+.header-image {
+    background-color: #777;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
