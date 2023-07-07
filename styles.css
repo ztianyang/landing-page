@@ -81,7 +81,31 @@ a {
 }
 
 .info-title {
+    text-align: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding: 40px 0;
+}
+
+.info-content {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.info-text {
+    text-align: center;
 }
