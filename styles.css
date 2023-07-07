@@ -65,7 +65,7 @@ a {
     font-size: 48px;
 }
 
-.title-subtext, .header-links a, .header-image, .message-text {
+.title-subtext, .header-links a, .header-image, .message-text, .footer-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -150,5 +150,13 @@ a {
 }
 
 .white-border {
-    border: 2px solid white;
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    padding: 20px 0;
+}
+
+.footer-text {
+    text-align: center;
 }
