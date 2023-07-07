@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -46,6 +46,7 @@ a {
 
 .header-text, .title-text {
     color: #f9faf8;
+    font-weight: 900;
 }
 
 .header-text {
@@ -77,4 +78,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
